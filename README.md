@@ -58,17 +58,18 @@ The HC-05 Bluetooth module receives the commands and communicates them to the Ar
 The Arduino Nano processes the received command and generates the required control signals for the L298N motor driver. The motor driver then controls the four BO gear motors to produce the required movement.
 
 ## Communication Flow:
-Smartphone App
-      ↓
-Bluetooth Communication
-      ↓
-HC-05 Module
-      ↓
-Arduino Nano
-      ↓
-L298N Motor Driver
-      ↓
-4 × BO Gear Motors
+
+           Smartphone App
+                ↓
+         Bluetooth Communication
+                ↓
+           HC-05 Module
+                ↓
+          Arduino Nano
+                ↓
+       L298N Motor Driver
+                ↓
+       4 × BO Gear Motors
 
 ## Hardware Communication:
 
